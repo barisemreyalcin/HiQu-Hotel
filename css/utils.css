@@ -1,3 +1,5 @@
+/* Styles specific to app */
+
 :root {
     --white: #fff;
     --primary: #25316d;
@@ -128,4 +130,38 @@
 .flex-items > div {
     padding: 20px;
     flex-basis: 100%;
+}
+
+/* Flex Columns */
+
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column {
+    flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+}
+
+.flex-columns .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.flex-columns img {
+    height: 100%;
 }

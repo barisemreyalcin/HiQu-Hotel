@@ -1,3 +1,5 @@
+/* Styles related to flexbox classes */
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 
 * {
@@ -147,4 +149,18 @@ img {
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1.5rem;
+}
+
+/* About */
+#about {
+    color: #fff;
+}
+
+#about h2 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+#about p {
+    margin: 2rem 0;
 }
