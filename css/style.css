@@ -152,15 +152,22 @@ img {
 }
 
 /* About */
-#about {
+.about {
     color: #fff;
 }
 
-#about h2 {
+.about h2 {
     font-size: 4rem;
     font-weight: 400;
 }
 
-#about p {
+.about p {
     margin: 2rem 0;
+}
+
+/* Gallery */
+
+.gallery img:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
