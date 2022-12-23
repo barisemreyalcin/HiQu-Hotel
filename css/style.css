@@ -171,3 +171,23 @@ img {
     opacity: 0.8;
     cursor: pointer;
 }
+
+/* Cards */
+.card {
+    color: #fff;
+    font-weight: 700;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Team */
+
+.team img {
+    border-radius: 50%;
+}
+
+.team img:hover {
+    opacity: 0.7;
+}
