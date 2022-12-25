@@ -10,6 +10,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -98,6 +99,11 @@ img {
     height: 100vh;
     color: #fff;
     position: relative;
+}
+
+.main-header.blog {
+    background-image: url(../img/bg2.jpg);
+    height: 50vh;
 }
 
 .main-header .content {
@@ -221,6 +227,17 @@ img {
 
 .contact h2 {
     font-size: 4rem;
+}
+
+/* Article */
+
+.articles {
+    padding: 3rem 5rem;
+}
+
+.article {
+    padding: 1.5rem;
+    color: #fff;
 }
 
 /* Footer  */
